@@ -1422,23 +1422,3 @@ Your support helps encourage continued development and sharing of AI projects.
 This project is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute this project in accordance with the terms of the license.
-
----
-
-# 👨‍💻 Author
-
-**Kovvuri Harika Gowthami**
-
-AI Engineer | Python Developer | Generative AI Enthusiast | Multi-Agent AI | LLM Engineering | Agentic AI
-
-Feel free to connect, collaborate, and explore more AI projects!
-
----
-
-<div align="center">
-
-### ⭐ If you found this project helpful, don't forget to star the repository! ⭐
-
-**Thank you for visiting this project. Happy Coding! 🚀**
-
-</div>
