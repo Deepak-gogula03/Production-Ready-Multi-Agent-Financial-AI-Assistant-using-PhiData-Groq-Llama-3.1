@@ -1298,16 +1298,12 @@ This separation of responsibilities improves modularity, simplifies future exten
 # 📁 Project Structure
 
 ```
-Multi-Agent-Financial-AI-Assistant/
+Production-Ready-Multi-Agent-Financial-AI-Assistant-using-PhiData-Groq-Llama-3.1/
 │
 ├── financial_agent.py          # Main application containing the Multi-Agent workflow
 ├── requirements.txt            # Project dependencies
 ├── .env                        # API keys and environment variables
 ├── README.md                   # Project documentation
-└── assets/
-    ├── architecture.png
-    ├── workflow.png
-    └── demo.gif
 ```
 
 ---
@@ -1351,7 +1347,7 @@ Stores sensitive credentials securely.
 Example:
 
 ```env
-GROQ_API_KEY=your_groq_api_key
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 ```
 
 Keeping API keys outside the source code improves security and follows best development practices.
@@ -1376,9 +1372,9 @@ Provides complete documentation for the project including:
 ## Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Multi-Agent-Financial-AI-Assistant.git
+git clone https://github.com/Deepak-gogula03/Production-Ready-Multi-Agent-Financial-AI-Assistant-using-PhiData-Groq-Llama-3.1.git
 
-cd Multi-Agent-Financial-AI-Assistant
+cd Production-Ready-Multi-Agent-Financial-AI-Assistant-using-PhiData-Groq-Llama-3.1
 ```
 
 ---
@@ -1416,7 +1412,7 @@ pip install -r requirements.txt
 Create a `.env` file inside the project directory.
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=YOUR_GROQ_API_KEY
 ```
 
 ---
@@ -1428,42 +1424,6 @@ python financial_agent.py
 ```
 
 The Multi-Agent Financial Assistant will initialize the agents and process financial queries.
-
----
-
-# ▶️ Example Query
-
-```text
-Summarize analyst recommendations and share the latest news for NVIDIA.
-```
-
----
-
-# 📤 Example Output
-
-```text
-Analyst Recommendations
-
-• Majority of analysts maintain a Buy rating for NVIDIA.
-
-• Strong revenue growth driven by AI GPU demand.
-
-• Continued leadership in AI hardware and data center solutions.
-
-Latest News
-
-• NVIDIA continues expanding partnerships in AI infrastructure.
-
-• Strong quarterly earnings exceeded analyst expectations.
-
-• Increased enterprise adoption of AI accelerators.
-
-Summary
-
-NVIDIA remains one of the strongest-performing AI companies, supported by positive analyst sentiment and sustained growth in the artificial intelligence market.
-```
-
-> **Note:** The actual response may vary depending on the latest market data and news available at runtime.
 
 ---
 
@@ -1520,17 +1480,7 @@ Yahoo Finance   DuckDuckGo Search
 
 ---
 
-# 📸 Demo
-
-You can include the following screenshots in this section:
-
-- Application Output
-- Agent Collaboration Workflow
-- Terminal Execution
-- Architecture Diagram
-- Workflow Diagram
-
-Example:
+# 📸 ScreenShots
 
 ```markdown
 ![Architecture](assets/architecture.png)
@@ -1740,50 +1690,6 @@ Key learnings include:
 
 ---
 
-# 🙌 Acknowledgements
-
-This project was made possible through the excellent open-source tools and technologies provided by the AI community.
-
-Special thanks to:
-
-- PhiData
-- Groq
-- Meta Llama
-- Yahoo Finance
-- DuckDuckGo Search
-- Python Community
-
-for providing the tools and frameworks that power this application.
-
----
-
-# 🤝 Contributing
-
-Contributions, feature requests, and suggestions are always welcome.
-
-If you'd like to improve this project:
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
-
----
-
-# ⭐ Support
-
-If you found this project useful or learned something new from it:
-
-- ⭐ Star this repository
-- 🍴 Fork the project
-- 📢 Share it with others
-- 💡 Suggest new features
-- 🛠️ Contribute improvements
-
-Your support helps encourage continued development and sharing of AI projects.
-
----
 
 # 📜 License
 
