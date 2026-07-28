@@ -814,6 +814,8 @@ The architecture consists of four primary layers:
 
 This layered design promotes scalability, modularity, and ease of maintenance while enabling seamless collaboration between AI agents.
 
+<img width="1536" height="1024" alt="ChatGPT Image Jul 28, 2026, 11_16_17 AM" src="https://github.com/user-attachments/assets/e1ed4e10-95ff-4c0e-a786-7456bc351d1f" />
+
 ---
 
 # 🔄 Request Lifecycle
@@ -1300,70 +1302,12 @@ This separation of responsibilities improves modularity, simplifies future exten
 ```
 Production-Ready-Multi-Agent-Financial-AI-Assistant-using-PhiData-Groq-Llama-3.1/
 │
-├── financial_agent.py          # Main application containing the Multi-Agent workflow
-├── requirements.txt            # Project dependencies
-├── .env                        # API keys and environment variables
-├── README.md                   # Project documentation
+├── financial_agent.py
+├── playground.py          
+├── requirements.txt            
+├── .env                        
+├── README.md                   
 ```
-
----
-
-# 📂 Project Components
-
-## 📄 financial_agent.py
-
-This is the main application file that defines the complete Multi-Agent workflow.
-
-It is responsible for:
-
-- Initializing the Groq Llama 3.1 language model
-- Creating specialized AI agents
-- Integrating external tools
-- Building the Team Agent
-- Orchestrating agent collaboration
-- Processing user queries
-- Generating final responses
-
----
-
-## 📄 requirements.txt
-
-Contains all the Python libraries required to run the project.
-
-Typical dependencies include:
-
-- phidata
-- groq
-- yfinance
-- duckduckgo-search
-- python-dotenv
-
----
-
-## 📄 .env
-
-Stores sensitive credentials securely.
-
-Example:
-
-```env
-GROQ_API_KEY=YOUR_GROQ_API_KEY
-```
-
-Keeping API keys outside the source code improves security and follows best development practices.
-
----
-
-## 📄 README.md
-
-Provides complete documentation for the project including:
-
-- Overview
-- Architecture
-- Installation
-- Workflow
-- Technology Stack
-- Future Enhancements
 
 ---
 
